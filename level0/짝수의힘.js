@@ -9,3 +9,9 @@ const even = (n) => {
 };
 
 even(10);
+
+// 다른사람의 풀이
+function solution(n) {
+  var half = Math.floor(n / 2);
+  return half * (half + 1);
+}
